@@ -8,39 +8,46 @@ Welcome to the Machine Learning Project repository. This project focuses on vari
 
 ## Predictive Modeling
 
-In the `predictive` folder, you will find implementations of machine learning models for various predictive tasks. These models are designed to make predictions based on input data, such as classification, regression, and clustering. Each subfolder contains specific examples and use cases.
+In the predictive modeling, you will find the application of machine learning models for various predictive tasks. These models are designed to make predictions based on input data, such as classification, regression, and clustering.
 
 ### Examples
 
-- [Classification](predictive/classification/): Implementations of classification algorithms, including logistic regression, decision trees, and support vector machines.
+- [Classification](classification/): Implementations of classification algorithms.
 
-- [Regression](predictive/regression/): Regression models like linear regression, random forests, and gradient boosting for predicting continuous values.
+- [End to End Machine Learning](end_to_end_ml/): Data Preprocessing, Exploration, Applying ML model (Regression).
 
-- [Clustering](predictive/clustering/): Code and examples for clustering algorithms like K-means and DBSCAN.
+- [Support Vector Machine](svm/): Application of SVM Classifier.
+
+- [Regression](training_linear_models/): Application of Regression Modeling along with Regularization.
+
+- [Decision Trees](decision_trees/): There are only questions that people generally have when learning about decision trees.
+
+- [Dimensionality Reduction](dimensionality_reduction/): There are only questions that people generally have when learning about decision trees.
+
 
 ## Time Series Forecasting
 
-The `forecasting` folder is dedicated to time series forecasting. Time series data often involves predicting future values based on historical observations. In this section, you'll find examples and implementations of forecasting models.
+The forecasting modeling is dedicated to time series forecasting. Time series data often involves predicting future values based on historical observations. In this section, you'll find examples and implementations of forecasting models.
 
 ### Examples
 
-- [ARIMA Models](forecasting/arima/): Code for implementing AutoRegressive Integrated Moving Average (ARIMA) models, a common choice for time series forecasting.
+- [ARIMA Models](time_series/): Application of AutoRegressive Integrated Moving Average (ARIMA) models, a common choice for time series forecasting.
 
-- [Prophet](forecasting/prophet/): Implementation and examples using Prophet, an open-source forecasting tool developed by Facebook.
+- [Prophet](time_series/): Application and examples using Prophet, an open-source forecasting tool developed by Facebook.
 
-- [LSTM Forecasting](forecasting/lstm/): Long Short-Term Memory (LSTM) neural networks for time series forecasting.
+- [LSTM Forecasting](time_series/): Long Short-Term Memory (LSTM) neural networks for time series forecasting.
 
 ## Neural Networks
 
-The `neural_networks` folder contains deep learning models and neural network implementations. Deep learning is used for various tasks such as image recognition, natural language processing, and more.
+The neural_networks modeling contains deep learning models and neural network implementations. Deep learning is used for various tasks such as image recognition, natural language processing, and more.
 
 ### Examples
 
-- [Image Classification](neural_networks/image_classification/): Convolutional Neural Networks (CNNs) for image classification tasks, using popular frameworks like TensorFlow and PyTorch.
+- [Training Deep Neural Networks](training_deep_nn/): Introduction of different problems that occur when training Deep Neural Network.
 
-- [Natural Language Processing](neural_networks/nlp/): Implementations of neural networks for natural language processing tasks, including text classification, sentiment analysis, and language generation.
+- [Natural Language Processing](nlp/): Implementations of neural networks for natural language processing tasks, including text classification, sentiment analysis, and language generation.
 
-- [Recurrent Neural Networks](neural_networks/rnn/): Recurrent Neural Networks (RNNs) for sequential data analysis, such as time series prediction and language modeling.
+- [Custom Models and Training](custom_models_n_training/): How to do custom model training, typically when you need more control on your architecture.
 
 ## Getting Started
 
